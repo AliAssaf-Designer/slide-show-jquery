@@ -1,0 +1,27 @@
+body{
+    background-image: linear-gradient(-45deg, #78bcc4 30%,#f7f8f3 40%, #002c3e 70%);
+}
+.slider{
+    width: 720px;
+    margin: 125px auto;
+    display: flex;
+    .slide{
+        width: 600px;
+        height: 400px;
+        overflow: hidden;
+        border-radius: 15px;
+        box-shadow: 0px 5px 10px rgb(63, 59, 59);
+        img{
+            width: 100%;
+            height: 100%;
+            display: none;
+        }
+        .show{
+            display: inline-block;
+        }
+    }
+    .prev, .next{
+        width: 60px;
+        cursor: pointer;
+    }
+}
