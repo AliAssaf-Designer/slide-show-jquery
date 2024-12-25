@@ -32,12 +32,12 @@ body{
         background-repeat: no-repeat;
     }
     .slider{
-        width: 526px;
+        width: 475px;
         height: 300px;
         margin: 165px auto;
         .slide{
-            width: 526px;
-            height: 300px;
+            width: 450px;
+            height: 100%;
         }
         .prev, .next{
             width: 40px;
