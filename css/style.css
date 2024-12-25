@@ -17,7 +17,7 @@ body{
             display: none;
         }
         .show{
-            display: inline-block;
+            display: block;
         }
     }
     .prev, .next{
@@ -38,6 +38,7 @@ body{
         .slide{
             width: 450px;
             height: 100%;
+
         }
         .prev, .next{
             width: 40px;
