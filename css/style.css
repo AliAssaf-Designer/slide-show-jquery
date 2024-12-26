@@ -14,7 +14,7 @@ body{
         img{
             width: 100%;
             height: 100%;
-            display: none;
+            /* display: none; */
         }
         .show{
             display: block;
@@ -38,9 +38,6 @@ body{
         .slide{
             width: 430px;
             height: 100%;
-            img{
-                width: 366px;
-            }
         }
         .prev, .next{
             width: 40px;
