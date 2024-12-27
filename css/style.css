@@ -7,15 +7,12 @@ body{
     margin: 125px auto;
     display: flex;
     .slide{
-        /* width: 600px;
-        height: 400px; */
         overflow: hidden;
         border-radius: 15px;
         box-shadow: 0px 5px 10px rgb(63, 59, 59);
         .slide-img{
             width: 100%;
             height: 100%;
-            /* display: none; */
         }
         .show{
             display: block;
@@ -34,11 +31,11 @@ body{
     }
     .slider{
         width: 100%;
-        height: 45vh;
-        margin: 165px auto;
+        margin: 0px auto;
         .slide{
             width: 430px;
-            height: 100%;
+            height: 50%;
+            margin: auto;
         }
         .prev, .next{
             width: 40px;
