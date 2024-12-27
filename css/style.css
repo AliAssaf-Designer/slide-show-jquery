@@ -2,7 +2,8 @@ body{
     background-image: linear-gradient(-45deg, #78bcc4 30%,#f7f8f3 40%, #002c3e 70%);
 }
 .slider{
-    width: 720px;
+    width: 90%;
+    height: 100vh;
     margin: 125px auto;
     display: flex;
     .slide{
@@ -32,8 +33,8 @@ body{
         background-repeat: no-repeat;
     }
     .slider{
-        width: 446px;
-        height: 300px;
+        width: 100%;
+        height: 45vh;
         margin: 165px auto;
         .slide{
             width: 430px;
